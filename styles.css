@@ -36,6 +36,13 @@
     display:block;
 }
 
+.dropdown-image
+{
+    object-fit:cover;
+    height: 50px;
+    width: 100px;
+}
+
 /* change color of drop down items on hover */
 .dropdown-content div:hover
 {
@@ -50,5 +57,40 @@
 }
 
 
+/* 3D stair*/
+.stair1
+{
+    width: 300px;
+    height: 200px;
+    perspective: 500px;
+}
+
+.box
+{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-50px);
+}
+
+box-front, box-back
+{
+    width:300px;
+    height:200px;
+}
 
 
+box-left, box-right
+{
+    width:100px;
+    height: 200px;
+    left:100px;
+}
+
+box-top, box-bottom
+{
+    width: 300px;
+    height: 100px;
+    top:50px;
+}
