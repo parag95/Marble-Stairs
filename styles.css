@@ -10,15 +10,32 @@
     border: none;
 }
 
+.dropbtn2 {
+    background-color: #4CAF50;
+    color:white;
+    padding:16px;
+    font-size:16px;
+    border: none;
+    position: relative;
+    left: 150px;
+    top: -50px;
+}
+
 /* position the  dropdown content */
-.dropodown
+.dropodown1
+{
+    position:relative;
+    display: inline-block;
+}
+
+.dropodown2
 {
     position:relative;
     display: inline-block;
 }
 
 /* Dropdown content (hidden by default)*/
-.dropdown-content {
+.dropdown1-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -27,8 +44,20 @@
     z-index: 1;
 }
 
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
 /* inside the drop down*/
-.dropdown-content div
+.dropdown1-content div
 {
     color:black;
     padding: 12px 16px;
@@ -36,6 +65,13 @@
     display:block;
 }
 
+.dropdown2-content div
+{
+    color:black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display:block;
+}
 .dropdown-image
 {
     object-fit:cover;
@@ -44,20 +80,96 @@
 }
 
 /* change color of drop down items on hover */
-.dropdown-content div:hover
+.dropdown1-content div:hover
+{
+    background-color:#ddd;
+}
+
+.dropdown2-content div:hover
 {
     background-color:#ddd;
 }
 
 
 /* Show drop down menu on hover */
-.dropdown:hover .dropdown-content 
+.dropdown1:hover .dropdown1-content 
+{
+    display: block;
+}
+
+.dropdown2:hover .dropdown2-content 
 {
     display: block;
 }
 
 
-/* 3D stair*/
+.stair1-top
+{
+    position: absolute;
+    top:100px;
+    left: 51px;
+    width: 200px;
+    height: 30px;
+    transform: skewX(43deg);
+}
+
+.stair1-front
+{
+    position:relative;
+    top:17px;
+    left: 57px;
+    width: 200px;
+    height: 45px;
+
+}
+
+.stair1-left
+{
+    position: relative;
+    top: -43px;
+    left: 28px;
+    width: 30px;
+    height: 42px;
+    transform: skewX(20deg);
+    transform: skewY(50deg);
+}
+
+
+.stair2-top
+{
+    position: relative;
+    top:-25px;
+    left: 72px;
+    width: 200px;
+    height: 30px;
+    transform: skewX(43deg);
+}
+
+.stair2-front
+{
+    position:relative;
+    top:-25px;
+    left: 85px;
+    width: 200px;
+    height: 45px;
+
+}
+
+.stair2-left
+{
+    position: relative;
+    top: -85px;
+    left: 56px;
+    width: 30px;
+    height: 42px;
+    transform: skewX(20deg);
+    transform: skewY(50deg);
+}
+
+
+
+/*
+ 3D stair
 .stair1
 {
     width: 300px;
@@ -74,23 +186,60 @@
     transform: translateZ(-50px);
 }
 
-box-front, box-back
+
+
+
+.box-front, .box-back
 {
     width:300px;
     height:200px;
+    position: absolute;
 }
 
 
-box-left, box-right
+.box-left, .box-right
 {
     width:100px;
     height: 200px;
     left:100px;
+    position: absolute;
 }
 
-box-top, box-bottom
+.box-top, .box-bottom
 {
     width: 300px;
-    height: 100px;
+    height: 100px;  
     top:50px;
+    position: absolute;
 }
+
+
+.box-top
+{
+    transform: rotateY(0deg) translateZ(50px);
+}
+
+.box-back
+{
+    transform: rotateY(180deg) translateZ(50px);
+}
+
+.box-right
+{
+    transform: rotateY(90deg) translateZ(150px);
+}
+
+.box-left
+{
+    transform: rotateY(-90deg) translateZ(150px);
+}
+
+.box-top
+{
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.box-bottom
+{
+    transform: rotateX(-90deg) translateZ(100px);
+} */
