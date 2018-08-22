@@ -18,7 +18,7 @@
     border: none;
     position: relative;
     left: 150px;
-    top: -50px;
+    top: -52px;
 }
 
 /* position the  dropdown content */
@@ -106,7 +106,7 @@
 .stair1-top
 {
     position: absolute;
-    top:102px;
+    top:100px;
     left: 51px;
     width: 200px;
     height: 30px;
