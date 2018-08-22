@@ -111,15 +111,21 @@
     width: 200px;
     height: 30px;
     transform: skewX(43deg);
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
 }
 
 .stair1-front
 {
     position:relative;
-    top:17px;
+    top:19px;
     left: 57px;
     width: 200px;
     height: 45px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
 
 }
 
@@ -128,42 +134,56 @@
     position: relative;
     top: -43px;
     left: 28px;
-    width: 30px;
-    height: 42px;
+    width: 28px;
+    height: 44px;
     transform: skewX(20deg);
-    transform: skewY(50deg);
+    transform: skewY(47deg);
+    background-color: #ddd;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
 }
 
 
 .stair2-top
 {
     position: relative;
-    top:-25px;
+    top:-27px;
     left: 72px;
     width: 200px;
     height: 30px;
     transform: skewX(43deg);
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
 }
 
 .stair2-front
 {
     position:relative;
-    top:-25px;
-    left: 85px;
+    top:-28px;
+    left: 86px;
     width: 200px;
     height: 45px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
 
 }
 
 .stair2-left
 {
     position: relative;
-    top: -85px;
-    left: 56px;
-    width: 30px;
-    height: 42px;
+    top: -91px;
+    left: 57px;
+    width: 28px;
+    height: 46px;
     transform: skewX(20deg);
-    transform: skewY(50deg);
+    transform: skewY(47deg);
+    background-color: #ddd;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
 }
 
 
