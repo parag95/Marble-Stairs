@@ -253,6 +253,8 @@ table {
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    height: 220px;
+    overflow: auto;
 }
 
 #dropdown2-content {
@@ -263,6 +265,8 @@ table {
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    height: 220px;
+    overflow: auto;
 }
 
 
@@ -272,6 +276,7 @@ table {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    
 }
 
 #dropdown2-content div {
