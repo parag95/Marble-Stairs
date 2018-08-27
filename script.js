@@ -13,9 +13,9 @@ function btn1ItalianMarbleClicked()
 }
 
 function btn1GreenMarbleClicked() {
-    document.getElementById('stair1-top').style.backgroundImage = "url(Images/GreenMarble.jpg)";
-    document.getElementById('stair2-top').style.backgroundImage = "url(Images/GreenMarble.jpg)";
-    document.getElementById('stair3-top').style.backgroundImage = "url(Images/GreenMarble.jpg)";
+    document.getElementById('stair1-front').style.backgroundImage = "url(Images/GreenMarble.jpg)";
+    document.getElementById('stair2-front').style.backgroundImage = "url(Images/GreenMarble.jpg)";
+    document.getElementById('stair3-front').style.backgroundImage = "url(Images/GreenMarble.jpg)";
 }
 
 function btn2MarbleClicked()
