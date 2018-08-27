@@ -196,7 +196,7 @@ table {
 {
 
     padding: 10px;
-    margin-left: 450px;
+    margin-left: 490px;
     margin-right: 300px;
     
 }
@@ -218,7 +218,7 @@ table {
     font-size: 16px;
     border: none;
     position: relative;
-    left: 150px;
+    
     width: 150px;
 }
 
@@ -232,6 +232,7 @@ table {
 #dropdown2 
 {
     position: relative;
+    left: 100px;
     display: inline-block;
 }
 
@@ -248,7 +249,6 @@ table {
 #dropdown2-content {
     display: none;
     position: absolute;
-    left: 150px;
     
     background-color: #f1f1f1;
     min-width: 150px;
