@@ -61,6 +61,14 @@ table {
     drop down button*/
 
 
+#top-p
+{
+    margin-top: 10px;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+}    
+
 #stair1-top
 {
     position: relative;
